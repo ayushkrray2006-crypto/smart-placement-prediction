@@ -1,8 +1,7 @@
 import joblib
 import pandas as pd
 from pathlib import Path
-
-_bundle = joblib.load(Path(__file__).parent.parent / "ml" / "model.pkl")
+_bundle = joblib.load(Path(__file__).parent / "ml" / "model.pkl")
 
 def predict_readiness(student):
     row = pd.DataFrame([{f: getattr(student, f) for f in _bundle["features"]}])
