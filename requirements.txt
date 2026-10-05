@@ -5,3 +5,4 @@ fastapi
 uvicorn
 fastapi
 uvicorn
+python-jose
