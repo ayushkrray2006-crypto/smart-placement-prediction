@@ -1,8 +1,11 @@
-certifi==2026.7.22
-gunicorn
-gunicorn
 fastapi
-uvicorn
-fastapi
-uvicorn
+uvicorn[standard]
 python-jose
+passlib
+gunicorn
+pandas
+numpy
+scikit-learn
+SQLAlchemy
+email-validator
+python-multipart
